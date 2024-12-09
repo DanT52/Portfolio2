@@ -11,7 +11,7 @@ export const Skills = () => {
   const [ref, controls] = useScrollAnimation();
 
   return (
-    <section id="skills" className="py-20 bg-background-50 dark:bg-background-900">
+    <section id="skills" className="py-20 bg-background-50 dark:bg-background-950">
       <div className="container mx-auto px-4">
         <motion.div
           ref={ref}

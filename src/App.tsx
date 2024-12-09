@@ -16,7 +16,7 @@ function App() {
       <Skills />
       <Contact />
       
-      <footer className="bg-background-900 dark:bg-background-950 text-background-50 py-6">
+      <footer className="bg-background-600 dark:bg-background-950 text-background-50 py-6">
         <div className="container mx-auto px-4 text-center">
           <p>© {new Date().getFullYear()} Daniel Basarab. All Rights Reserved.</p>
         </div>

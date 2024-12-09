@@ -14,7 +14,7 @@ export const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-20 bg-gradient-to-br from-primary-600 to-accent-500 dark:from-primary-800 dark:to-accent-700 text-background-50">
+    <section id="contact" className="py-20 bg-gradient-to-br from-primary-400 to-accent-300 dark:from-primary-900 dark:to-accent-800 text-background-50">
       <div className="container mx-auto px-4 text-center">
         <motion.div
           ref={ref}
