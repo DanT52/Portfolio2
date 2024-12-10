@@ -6,10 +6,11 @@ export const Hero = () => (
     <div className="absolute inset-0 z-0">
       <div className="absolute inset-0 bg-gradient-to-br from-primary-600/90 to-accent-500/90 dark:from-primary-800/90 dark:to-accent-700/90" />
       <img
-        src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=2000"
+        src="src/components/images/herobg.png"
         alt="Background"
         className="w-full h-full object-cover"
       />
+      <div className="absolute inset-0 bg-white opacity-30 dark:bg-black" /> {/* This is the overlay */}
     </div>
     
     <div className="z-10 px-4">
@@ -18,8 +19,8 @@ export const Hero = () => (
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <h1 className="text-5xl font-bold mb-4 text-background-50">Daniel Basarab</h1>
-        <h2 className="text-3xl mb-8 text-background-100">Computer Science Student</h2>
+        <h1 className="text-5xl font-bold mb-4 text-background-950 dark:text-background-50">Daniel Basarab</h1>
+        <h2 className="text-3xl mb-8 text-background-900 dark:text-background-100">Computer Science Student</h2>
         <div className="flex justify-center space-x-4">
           <motion.a
             href="#projects"
