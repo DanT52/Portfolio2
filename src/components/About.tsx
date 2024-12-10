@@ -18,12 +18,14 @@ export const About = () => {
           transition={{ duration: 0.6 }}
           className="max-w-3xl mx-auto"
         >
-          <h2 className="text-4xl font-bold mb-8 text-text-900 dark:text-text-50 text-center">About Me</h2>
-          <p className="text-lg text-text-700 dark:text-text-200 leading-relaxed">
-            👋 I'm Daniel, a computer science student with an interest in software engineering and web development. 
-            Currently pursuing my Bachelor's degree at WSUv, I'm set to graduate in 2025.
-            I enjoy working with various technologies, creating interactive applications.
-          </p>
+          <div id="about">
+            <h2 className="text-4xl font-bold mb-8 text-text-900 dark:text-text-50 text-center">About Me</h2>
+            <p className="text-lg text-text-700 dark:text-text-200 leading-relaxed">
+              👋 I'm Daniel, a computer science student with an interest in software engineering and web development. 
+              Currently pursuing my Bachelor's degree at WSUv, I'm set to graduate in 2025.
+              I enjoy working with various technologies, creating interactive applications.
+            </p>
+          </div>
         </motion.div>
       </div>
     </section>
