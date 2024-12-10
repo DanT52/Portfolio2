@@ -21,7 +21,7 @@ export const Skills = () => {
             hidden: { opacity: 0, y: 20 },
             visible: { opacity: 1, y: 0 }
           }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.4 }}
         >
           <h2 className="text-4xl font-bold mb-12 text-text-900 dark:text-text-50 text-center">Skills</h2>
           <div className="flex flex-wrap justify-center gap-4">
@@ -33,7 +33,7 @@ export const Skills = () => {
                   visible: {
                     opacity: 1,
                     scale: 1,
-                    transition: { delay: index * 0.1 }
+                    transition: { delay: index * 0.05 }
                   }
                 }}
                 whileHover={{ scale: 1.1 }}
