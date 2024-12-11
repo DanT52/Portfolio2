@@ -14,7 +14,7 @@ export const Hero = () => {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-br from-primary-600/90 to-accent-500/90 dark:from-primary-800/90 dark:to-accent-700/90" />
         <img
-          src="src/components/images/herobg.png"
+          src="herobg.png"
           alt="Background"
           className="w-full h-full object-cover"
         />

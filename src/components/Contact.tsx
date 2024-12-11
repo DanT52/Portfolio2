@@ -59,7 +59,7 @@ export const Contact = () => {
               </motion.a>
             </div>
             <motion.a 
-              href="/resume.pdf" 
+              href="daniel_basarab_resume.pdf" 
               target="_blank"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
