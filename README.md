@@ -2,6 +2,6 @@
 
 next steps
 
-add my projects
-fix skills
-add education section
+
+Update skills, add aws to skills
+Clean Project Gifs
