@@ -5,6 +5,7 @@ import { Projects } from './components/Projects';
 import { Skills } from './components/Skills';
 import { Contact } from './components/Contact';
 import { ThemeToggle } from './components/ThemeToggle';
+import { Education } from './components/Education';
 
 function App() {
   return (
@@ -12,8 +13,10 @@ function App() {
       <ThemeToggle />
       <Hero />
       <About />
-      <Projects />
+      <Education />
       <Skills />
+      <Projects />
+      
       <Contact />
       
       <footer className="bg-background-300 text-background-950 dark:bg-background-950 dark:text-background-50 py-6">
