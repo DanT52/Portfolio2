@@ -6,26 +6,26 @@ const projects = [
   {
     name: 'QuoteZone',
     description: 'A full-stack web app for sharing, finding, and saving quotes.',
-    technologies: ['React', 'Next', 'TailwindCSS', 'MongoDB', 'NextAuth'],
+    technologies: ['ReactJS', 'NextJS', 'TailwindCSS', 'MongoDB', 'NextAuth'],
     liveLink: 'https://quote-zone.vercel.app/',
     githubLink: 'https://github.com/DanT52/QuoteZone',
-    image: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&auto=format&fit=crop'
+    image: 'https://github.com/DanT52/QuoteZone/raw/main/homepage.png'
   },
   {
     name: 'Virtual Vortex',
     description: 'Online play-ground app with terminal emulator, login system, and snake game.',
-    technologies: ['React', 'ChakraUI', 'Firebase'],
+    technologies: ['ReactJS', 'ChakraUI', 'Firebase'],
     liveLink: 'https://virtualvortex.net/',
     githubLink: 'https://github.com/DanT52/VirtualVortex',
-    image: 'https://images.unsplash.com/photo-1550439062-609e1531270e?w=800&auto=format&fit=crop'
+    image: 'https://camo.githubusercontent.com/eb2537f152061bb46960e8760d9a5dedc5aec759b1ef77c0ecccea523f01c2a6/68747470733a2f2f692e696d6775722e636f6d2f534a75707161782e706e67'
   },
   {
-    name: 'NetDots Game',
-    description: 'Networked Dots and Boxes game with local and network play modes.',
-    technologies: ['Java', 'Swing', 'Networking'],
-    liveLink: 'https://replit.com/@DanT52/DotsandBoxes',
-    githubLink: 'https://github.com/DanT52/DotsGame/tree/main/NetDots',
-    image: 'https://images.unsplash.com/photo-1553481187-be93c21490a9?w=800&auto=format&fit=crop'
+    name: 'GL City',
+    description: 'A Scene created with WebGL, featuring lighting, a Scene Graph with animated objects and a Skybox.',
+    technologies: ['WebGL', 'Javascript', 'Computer Graphics'],
+    liveLink: 'https://dant52.github.io/gl-city/',
+    githubLink: 'https://github.com/DanT52/gl-city',
+    image: 'https://camo.githubusercontent.com/16617b7f2caf0bcd1dd9fbc298630dc4ba4876edfcf6ce6bfb50d7e04e40f650/68747470733a2f2f6d65646961322e67697068792e636f6d2f6d656469612f76312e59326c6b505463354d4749334e6a45784e57787a615755774f544a6a4e7a4533596a5a7464475134596d39734f544e69597a5133626d45334d584a6c646d3132616d39345a795a6c634431324d563970626e526c636d35686246396e61575a66596e6c666157516d593351395a772f52656c636c684350646178766142387659772f67697068792e676966'
   }
 ];
 
