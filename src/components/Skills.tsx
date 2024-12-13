@@ -1,11 +1,19 @@
 import { motion } from 'framer-motion';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
+// List of skills
 const skills = [
-  'JavaScript', 'Python', 'Node.js', 'React', 'Java', 'C', 
-  'Next', 'MongoDB', 'Bash', 'Git', 'Firebase', 
-  'TailwindCSS', 'HTML', 'CSS'
+  'Python', 'JavaScript', 'HTML', 'CSS', 'C/C++', 'Java', 
+  'ReactJS', 'Next.js', 'MongoDB', 'SQL', 'Firebase', 
+  'Git/Github'
 ];
+
+// AWS Certification details
+const awsCertification = {
+  name: 'AWS Cloud Practitioner',
+  image: 'https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Cloud-Practitioner_badge.634f8a21af2e0e956ed8905a72366146ba22b74c.png',
+  link: 'https://www.credly.com/badges/172549f1-a2bf-4886-ae5b-550ffff862c1/linked_in_profile'
+};
 
 export const Skills = () => {
   const [ref, controls] = useScrollAnimation();
@@ -36,13 +44,39 @@ export const Skills = () => {
                     transition: { delay: index * 0.05 }
                   }
                 }}
-                whileHover={{ scale: 1.1 }}
-                className="px-6 py-3 bg-primary-100 dark:bg-primary-800 text-primary-700 dark:text-primary-100 
-                         rounded-full text-lg font-medium"
+                className="
+                  px-6 py-3 
+                  bg-primary-100 dark:bg-primary-800 
+                  text-primary-700 dark:text-primary-100 
+                  rounded-full text-lg font-medium 
+                  transition-colors duration-300 
+                  group hover:bg-gradient-to-r 
+                  hover:from-primary-200 hover:to-primary-300 
+                  dark:hover:from-primary-600 dark:hover:to-primary-700
+                "
               >
                 {skill}
               </motion.div>
             ))}
+            <motion.a
+              href={awsCertification.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 0 }}
+              whileHover={{ scale: 1.05 }}
+              className="
+                flex items-center px-6 py-3 
+                bg-primary-200 dark:bg-primary-700 
+                text-primary-600 dark:text-primary-200 
+                rounded-full text-lg font-medium 
+                transition-transform duration-300
+              "
+            >
+              <img src={awsCertification.image} alt={awsCertification.name} className="w-10 h-10 mr-2" />
+              {awsCertification.name}
+            </motion.a>
           </div>
         </motion.div>
       </div>
