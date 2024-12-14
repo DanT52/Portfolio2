@@ -20,6 +20,13 @@ const projects = [
     image: 'https://camo.githubusercontent.com/eb2537f152061bb46960e8760d9a5dedc5aec759b1ef77c0ecccea523f01c2a6/68747470733a2f2f692e696d6775722e636f6d2f534a75707161782e706e67'
   },
   {
+    name: 'CarPricePrediction',
+    description: 'A project for predicting used car prices using Random Forest Regression.',
+    technologies: ['Python', 'scikit-learn', 'Pandas', 'Matplotlib'],
+    githubLink: 'https://github.com/DanT52/CarPricePrediction',
+    image: 'https://i.imgur.com/jxGyhXi.png'
+  },
+  {
     name: 'GL City',
     description: 'A Scene created with WebGL, featuring lighting, a Scene Graph with animated objects and a Skybox.',
     technologies: ['WebGL', 'Javascript', 'Computer Graphics'],
@@ -72,14 +79,16 @@ export const Projects = () => {
                     ))}
                   </div>
                   <div className="flex space-x-4">
-                    <a
-                      href={project.liveLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-accent-600 dark:text-accent-300 hover:text-accent-700 dark:hover:text-accent-200 transition-colors"
-                    >
-                      Live Demo
-                    </a>
+                    {project.liveLink && (
+                      <a
+                        href={project.liveLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-accent-600 dark:text-accent-300 hover:text-accent-700 dark:hover:text-accent-200 transition-colors"
+                      >
+                        Live Demo
+                      </a>
+                    )}
                     <a
                       href={project.githubLink}
                       target="_blank"
