@@ -14,7 +14,7 @@ export const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-32 bg-gradient-to-br from-primary-400 to-accent-300 dark:from-primary-900 dark:to-accent-800 text-background-50">
+    <section id="contact" className="py-32 bg-gradient-to-br from-accent-300 to-primary-400 dark:from-primary-900 dark:to-accent-800 text-background-50">
       <div className="container mx-auto px-4 text-center">
         <motion.div
           ref={ref}
@@ -32,7 +32,7 @@ export const Contact = () => {
               onClick={handleEmailCopy}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-background-50 text-primary-600 dark:text-primary-700 px-8 py-4 rounded-full 
+              className="bg-background-50 text-primary-800 dark:bg-primary-800 dark:text-text-50 px-8 py-4 rounded-full 
                        hover:bg-primary-100 transition-all duration-300 flex items-center"
             >
               <MailIcon className="mr-2" /> 
@@ -63,7 +63,7 @@ export const Contact = () => {
               target="_blank"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-background-50 text-primary-600 dark:text-primary-700 px-8 py-4 rounded-full 
+              className="bg-background-50 text-primary-800 dark:bg-primary-800 dark:text-text-50 px-8 py-4 rounded-full 
                        hover:bg-primary-100 transition-all duration-300 flex items-center"
             >
               View Resume

@@ -51,9 +51,9 @@ export const Education = () => {
                 data-aos={edu.animation}
               >
                 <h3 className="text-2xl font-bold mb-2 text-text-900 dark:text-text-50">{edu.institution}</h3>
-                <span className="education-date text-text-700 dark:text-text-200">{edu.date}</span>
-                <h4 className="text-xl text-text-700 dark:text-text-200">{edu.degree}</h4>
-                <div className="bg-primary-100 dark:bg-primary-800 text-primary-700 dark:text-primary-100 rounded-full px-3 py-1 inline-block mt-2">
+                <span className="education-date text-text-950 dark:text-text-200">{edu.date}</span>
+                <h4 className="text-xl text-text-950 dark:text-text-200">{edu.degree}</h4>
+                <div className="bg-primary-200 dark:bg-primary-800 text-primary-950 dark:text-primary-100 rounded-full px-3 py-1 inline-block mt-2">
                   {edu.gpa}
                 </div>
               </motion.div>

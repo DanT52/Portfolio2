@@ -18,7 +18,7 @@ export const Hero = () => {
           alt="Background"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-white opacity-30 dark:bg-black" /> {/* This is the overlay */}
+        <div className="absolute inset-0 bg-white opacity-15 dark:bg-black" /> {/* This is the overlay */}
       </div>
       
       <div className="z-10 px-4">
@@ -34,7 +34,7 @@ export const Hero = () => {
               onClick={() => scrollToSection('#projects')}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-background-50 text-primary-600 dark:text-primary-700 px-6 py-3 rounded-full hover:bg-primary-100 transition-all duration-300 flex items-center"
+              className="bg-background-50 text-primary-600 dark:bg-primary-800 dark:text-text-50 px-6 py-3 rounded-full hover:bg-primary-100 transition-all duration-300 flex items-center font-semibold"
             >
               <CodeIcon className="mr-2" /> Projects
             </motion.button>
@@ -42,7 +42,7 @@ export const Hero = () => {
               onClick={() => scrollToSection('#contact')}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-background-50 text-accent-600 dark:text-accent-700 px-6 py-3 rounded-full hover:bg-accent-100 transition-all duration-300 flex items-center"
+              className="bg-background-50 text-accent-600 dark:bg-primary-800 dark:text-text-50 px-6 py-3 rounded-full hover:bg-accent-100 transition-all duration-300 flex items-center font-semibold"
             >
               <MailIcon className="mr-2" /> Contact
             </motion.button>

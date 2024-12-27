@@ -20,7 +20,7 @@ export const About = () => {
         >
           <div id="about">
             <h2 className="text-4xl font-bold mb-8 text-text-900 dark:text-text-50 text-center">About Me</h2>
-            <p className="text-lg text-text-700 dark:text-text-200 leading-relaxed">
+            <p className="text-lg text-text-900 dark:text-text-200 leading-relaxed">
               👋 I'm Daniel, a computer science student with an interest in software engineering and fullstack development. 
               I am Currently pursuing my Bachelor's degree at WSUv, I'm set to graduate in 2025.
               I enjoy working with various technologies to create interactive applications.

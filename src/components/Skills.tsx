@@ -46,12 +46,12 @@ export const Skills = () => {
                 }}
                 className="
                   px-6 py-3 
-                  bg-primary-100 dark:bg-primary-800 
-                  text-primary-700 dark:text-primary-100 
+                  bg-primary-200 dark:bg-primary-800 
+                  text-primary-800 dark:text-primary-100 
                   rounded-full text-lg font-medium 
                   transition-colors duration-300 
                   group hover:bg-gradient-to-r 
-                  hover:from-primary-200 hover:to-primary-300 
+                  hover:from-primary-300 hover:to-primary-400 
                   dark:hover:from-primary-600 dark:hover:to-primary-700
                 "
               >
@@ -69,12 +69,12 @@ export const Skills = () => {
               className="
                 flex items-center px-6 py-3 
                 bg-primary-200 dark:bg-primary-700 
-                text-primary-600 dark:text-primary-200 
+                text-primary-800 dark:text-primary-200 
                 rounded-full text-lg font-medium 
-                transition-transform duration-300
+                transition-transform duration-300 
               "
             >
-              <img src={awsCertification.image} alt={awsCertification.name} className="w-10 h-10 mr-2" />
+              <img src={awsCertification.image} alt={awsCertification.name} className="w-7 h-7 mr-2" />
               {awsCertification.name}
             </motion.a>
           </div>
