@@ -27,8 +27,8 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-5xl font-bold mb-4 text-background-950 dark:text-background-50">Daniel Basarab</h1>
-          <h2 className="text-3xl mb-8 text-background-900 dark:text-background-100">Computer Science Student</h2>
+          <h1 className="text-5xl font-bold mb-4 text-background-950 dark:text-background-50 dark:drop-shadow-lg">Daniel Basarab</h1>
+            <h2 className="text-3xl mb-8 text-background-950 dark:text-background-50 dark:drop-shadow-lg">Computer Science Student</h2>
           <div className="flex justify-center space-x-4">
             <motion.button
               onClick={() => scrollToSection('#projects')}
