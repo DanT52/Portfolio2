@@ -1,7 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import { useState, useEffect } from 'react';
-
+import './markdownStyles.css';
 export const BlogPost = () => {
   const { postName } = useParams();
   const [content, setContent] = useState('');
@@ -28,7 +28,7 @@ export const BlogPost = () => {
         <Link to="/" className="text-accent-600 dark:text-accent-300 hover:underline">
           &larr; Back
         </Link>
-        <ReactMarkdown className="mt-6 text-text-700 dark:text-text-200">
+        <ReactMarkdown className="markdown-content mt-6 text-text-900 dark:text-text-100">
           {content}
         </ReactMarkdown>
       </div>
