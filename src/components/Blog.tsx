@@ -9,6 +9,12 @@ export const Blog = () => {
   //const posts = [{name: 'post1.md', content: '# How to write a blog'}]
   const [ref, controls] = useScrollAnimation();
 
+  const handlePostClick = () => {
+    // Save the current scroll position
+    sessionStorage.setItem('scrollPosition', window.scrollY.toString());
+  };
+  
+
   return (
     <section
       id="blog"
@@ -55,6 +61,7 @@ export const Blog = () => {
                   <Link
                     to={`/blog/${post.name.replace('.md', '')}`}
                     className="block hover:underline"
+                    onClick={handlePostClick}
                   >
                     <h3 className="text-xl font-semibold mb-2 text-text-900 dark:text-text-50 text-center">
                       {post.name.replace('.md', '')}
