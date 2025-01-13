@@ -66,7 +66,7 @@ export const Blog = () => {
                       className="
                         bg-background-50 dark:bg-background-700 
                         rounded-lg shadow-lg p-1 w-full 
-                        hover:bg-background-100 dark:hover:bg-background-600 
+                        hover:bg-background-300 dark:hover:bg-background-600 
                         transition-colors duration-300
                       "
                     >
