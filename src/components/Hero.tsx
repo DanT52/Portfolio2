@@ -29,22 +29,32 @@ export const Hero = () => {
         >
           <h1 className="text-5xl font-bold mb-4 text-background-950 dark:text-background-50 dark:drop-shadow-lg">Daniel Basarab</h1>
             <h2 className="text-3xl mb-8 text-background-950 dark:text-background-50 dark:drop-shadow-lg">Computer Science Student</h2>
-          <div className="flex justify-center space-x-4">
+          <div className="flex flex-col items-center space-y-4">
+            <div className="flex justify-center space-x-4">
+              <motion.button
+                onClick={() => scrollToSection('#projects')}
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="bg-background-50 text-primary-600 dark:bg-primary-800 dark:text-text-50 px-6 py-3 rounded-full hover:bg-primary-100 transition-all duration-300 flex items-center font-semibold"
+              >
+                <CodeIcon className="mr-2" /> Projects
+              </motion.button>
+              <motion.button
+                onClick={() => scrollToSection('#contact')}
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="bg-background-50 text-accent-600 dark:bg-primary-800 dark:text-text-50 px-6 py-3 rounded-full hover:bg-accent-100 transition-all duration-300 flex items-center font-semibold"
+              >
+                <MailIcon className="mr-2" /> Contact
+              </motion.button>
+            </div>
             <motion.button
-              onClick={() => scrollToSection('#projects')}
+              onClick={() => scrollToSection('#blog')}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-background-50 text-primary-600 dark:bg-primary-800 dark:text-text-50 px-6 py-3 rounded-full hover:bg-primary-100 transition-all duration-300 flex items-center font-semibold"
+              className="bg-background-50 text-secondary-600 dark:bg-primary-800 dark:text-text-50 px-6 py-3 rounded-full hover:bg-secondary-100 transition-all duration-300 flex items-center font-semibold"
             >
-              <CodeIcon className="mr-2" /> Projects
-            </motion.button>
-            <motion.button
-              onClick={() => scrollToSection('#contact')}
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="bg-background-50 text-accent-600 dark:bg-primary-800 dark:text-text-50 px-6 py-3 rounded-full hover:bg-accent-100 transition-all duration-300 flex items-center font-semibold"
-            >
-              <MailIcon className="mr-2" /> Contact
+              Blog
             </motion.button>
           </div>
         </motion.div>

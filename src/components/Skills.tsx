@@ -5,7 +5,7 @@ import { useScrollAnimation } from '../hooks/useScrollAnimation';
 const skills = [
   'Python', 'JavaScript', 'HTML', 'CSS', 'C/C++', 'Java', 
   'ReactJS', 'Next.js', 'MongoDB', 'SQL', 'Firebase', 
-  'Git/Github'
+  'Git/Github', 'Docker'
 ];
 
 // AWS Certification details
