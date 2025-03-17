@@ -4,12 +4,12 @@ import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const projects = [
   {
-    name: 'QuoteZone',
-    description: 'A full-stack web app for sharing, finding, and saving quotes.',
-    technologies: ['ReactJS', 'NextJS', 'TailwindCSS', 'MongoDB', 'NextAuth'],
-    liveLink: 'https://quote-zone.vercel.app/',
-    githubLink: 'https://github.com/DanT52/QuoteZone',
-    image: 'https://github.com/DanT52/QuoteZone/raw/main/homepage.png'
+    name: 'Big Rose City Roll',
+    description: 'Web application for the Big Rose City Roll 2025 event.',
+    technologies: ['React', 'Tailwind CSS', 'Vite', 'FastAPI', 'PostgreSQL'],
+    liveLink: 'https://bigrosecityroll.com/',
+    githubLink: 'https://github.com/DanT52/roseCityRoll',
+    image: 'https://camo.githubusercontent.com/fa3668d320deb8aa50b7cefa069d8cf1f153616f443cacccea9daeff21120b6d/68747470733a2f2f692e696d6775722e636f6d2f67386a4d644c712e706e67'
   },
   {
     name: 'Virtual Vortex',
@@ -24,7 +24,7 @@ const projects = [
     description: 'A project for predicting used car prices using Random Forest Regression.',
     technologies: ['Python', 'scikit-learn', 'Pandas', 'Matplotlib'],
     githubLink: 'https://github.com/DanT52/CarPricePrediction',
-    image: 'https://i.imgur.com/jxGyhXi.png'
+    image: 'https://camo.githubusercontent.com/b8022617265249b0056b28467d89307538489c1725696608217cd3da5cf14578/68747470733a2f2f692e696d6775722e636f6d2f6a7847796858692e706e67'
   },
   {
     name: 'GL City',
@@ -33,7 +33,15 @@ const projects = [
     liveLink: 'https://dant52.github.io/gl-city/',
     githubLink: 'https://github.com/DanT52/gl-city',
     image: 'https://camo.githubusercontent.com/16617b7f2caf0bcd1dd9fbc298630dc4ba4876edfcf6ce6bfb50d7e04e40f650/68747470733a2f2f6d65646961322e67697068792e636f6d2f6d656469612f76312e59326c6b505463354d4749334e6a45784e57787a615755774f544a6a4e7a4533596a5a7464475134596d39734f544e69597a5133626d45334d584a6c646d3132616d39345a795a6c634431324d563970626e526c636d35686246396e61575a66596e6c666157516d593351395a772f52656c636c684350646178766142387659772f67697068792e676966'
-  }
+  },
+  {
+    name: 'QuoteZone',
+    description: 'A full-stack web app for sharing, finding, and saving quotes.',
+    technologies: ['ReactJS', 'NextJS', 'TailwindCSS', 'MongoDB', 'NextAuth'],
+    liveLink: 'https://quote-zone.vercel.app/',
+    githubLink: 'https://github.com/DanT52/QuoteZone',
+    image: 'https://github.com/DanT52/QuoteZone/raw/main/homepage.png'
+  },
 ];
 
 export const Projects = () => {
