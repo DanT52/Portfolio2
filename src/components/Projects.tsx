@@ -15,7 +15,7 @@ const projects = [
     name: 'Virtual Vortex',
     description: 'Online play-ground app with terminal emulator, login system, and snake game.',
     technologies: ['ReactJS', 'ChakraUI', 'Firebase'],
-    liveLink: 'https://virtualvortex.net/',
+    liveLink: 'https://virtualvortex-eff1f.web.app/',
     githubLink: 'https://github.com/DanT52/VirtualVortex',
     image: 'https://camo.githubusercontent.com/eb2537f152061bb46960e8760d9a5dedc5aec759b1ef77c0ecccea523f01c2a6/68747470733a2f2f692e696d6775722e636f6d2f534a75707161782e706e67'
   },
