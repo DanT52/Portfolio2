@@ -42,6 +42,14 @@ const projects = [
     githubLink: 'https://github.com/DanT52/QuoteZone',
     image: 'https://github.com/DanT52/QuoteZone/raw/main/homepage.png'
   },
+  {
+    name: 'Bitmap Visualization',
+    description: 'Visualize Bitmap compression methods and B+trees.',
+    technologies: ['JavaScript', 'HTML', 'CSS', 'HTML Canvas'],
+    liveLink: 'https://benmccamish.github.io/bitmapvisualization/',
+    githubLink: 'https://github.com/DanT52/351visualization',
+    image: 'https://benmccamish.github.io/bitmapvisualization/assets/animation.gif'
+  }
 ];
 
 export const Projects = () => {
