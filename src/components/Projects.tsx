@@ -9,7 +9,7 @@ const projects = [
     technologies: ['React', 'Tailwind CSS', 'Vite', 'FastAPI', 'PostgreSQL'],
     liveLink: 'https://bigrosecityroll.com/',
     githubLink: 'https://github.com/DanT52/roseCityRoll',
-    image: 'https://camo.githubusercontent.com/fa3668d320deb8aa50b7cefa069d8cf1f153616f443cacccea9daeff21120b6d/68747470733a2f2f692e696d6775722e636f6d2f67386a4d644c712e706e67'
+    image: 'https://private-user-images.githubusercontent.com/42653318/437649070-bdcfea02-bb0f-4aeb-a2ce-03bf71e9e52a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDY0OTU1OTgsIm5iZiI6MTc0NjQ5NTI5OCwicGF0aCI6Ii80MjY1MzMxOC80Mzc2NDkwNzAtYmRjZmVhMDItYmIwZi00YWViLWEyY2UtMDNiZjcxZTllNTJhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTA2VDAxMzQ1OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTJkNjYyOTE0YzczZTliZjYwZjJiMzg3ZDMwZTIwODFiMGRlOGUxZGFhYWU3M2VhOWYxMDRiYmRhOTVlZTA4ZDImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.qtM9KZme6V_r7pxdn7ECIcqtlhPSYoOg6kj0K9KdicA'
   },
   {
     name: 'Virtual Vortex',
