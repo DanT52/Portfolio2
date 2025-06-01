@@ -9,22 +9,23 @@ const projects = [
     technologies: ['React', 'Tailwind CSS', 'Vite', 'FastAPI', 'PostgreSQL'],
     liveLink: 'https://bigrosecityroll.com/',
     githubLink: 'https://github.com/DanT52/roseCityRoll',
-    image: 'https://private-user-images.githubusercontent.com/42653318/437649070-bdcfea02-bb0f-4aeb-a2ce-03bf71e9e52a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDY0OTU1OTgsIm5iZiI6MTc0NjQ5NTI5OCwicGF0aCI6Ii80MjY1MzMxOC80Mzc2NDkwNzAtYmRjZmVhMDItYmIwZi00YWViLWEyY2UtMDNiZjcxZTllNTJhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTA2VDAxMzQ1OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTJkNjYyOTE0YzczZTliZjYwZjJiMzg3ZDMwZTIwODFiMGRlOGUxZGFhYWU3M2VhOWYxMDRiYmRhOTVlZTA4ZDImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.qtM9KZme6V_r7pxdn7ECIcqtlhPSYoOg6kj0K9KdicA'
+    image: 'https://github.com/user-attachments/assets/bdcfea02-bb0f-4aeb-a2ce-03bf71e9e52a'
   },
-  {
-    name: 'Virtual Vortex',
-    description: 'Online play-ground app with terminal emulator, login system, and snake game.',
-    technologies: ['ReactJS', 'ChakraUI', 'Firebase'],
-    liveLink: 'https://virtualvortex-eff1f.web.app/',
-    githubLink: 'https://github.com/DanT52/VirtualVortex',
-    image: 'https://camo.githubusercontent.com/eb2537f152061bb46960e8760d9a5dedc5aec759b1ef77c0ecccea523f01c2a6/68747470733a2f2f692e696d6775722e636f6d2f534a75707161782e706e67'
-  },
+  
   {
     name: 'CarPricePrediction',
     description: 'A project for predicting used car prices using Random Forest Regression.',
     technologies: ['Python', 'scikit-learn', 'Pandas', 'Matplotlib'],
     githubLink: 'https://github.com/DanT52/CarPricePrediction',
     image: 'https://camo.githubusercontent.com/b8022617265249b0056b28467d89307538489c1725696608217cd3da5cf14578/68747470733a2f2f692e696d6775722e636f6d2f6a7847796858692e706e67'
+  },
+  {
+    name: 'Bitmap Visualization',
+    description: 'Visualize Bitmap compression methods and B+trees.',
+    technologies: ['JavaScript', 'HTML', 'CSS', 'HTML Canvas'],
+    liveLink: 'https://benmccamish.github.io/bitmapvisualization/',
+    githubLink: 'https://github.com/DanT52/351visualization',
+    image: 'https://benmccamish.github.io/bitmapvisualization/assets/animation.gif'
   },
   {
     name: 'GL City',
@@ -43,13 +44,14 @@ const projects = [
     image: 'https://github.com/DanT52/QuoteZone/raw/main/homepage.png'
   },
   {
-    name: 'Bitmap Visualization',
-    description: 'Visualize Bitmap compression methods and B+trees.',
-    technologies: ['JavaScript', 'HTML', 'CSS', 'HTML Canvas'],
-    liveLink: 'https://benmccamish.github.io/bitmapvisualization/',
-    githubLink: 'https://github.com/DanT52/351visualization',
-    image: 'https://benmccamish.github.io/bitmapvisualization/assets/animation.gif'
-  }
+    name: 'Virtual Vortex',
+    description: 'Online play-ground app with terminal emulator, login system, and snake game.',
+    technologies: ['ReactJS', 'ChakraUI', 'Firebase'],
+    liveLink: 'https://virtualvortex-eff1f.web.app/',
+    githubLink: 'https://github.com/DanT52/VirtualVortex',
+    image: 'https://camo.githubusercontent.com/eb2537f152061bb46960e8760d9a5dedc5aec759b1ef77c0ecccea523f01c2a6/68747470733a2f2f692e696d6775722e636f6d2f534a75707161782e706e67'
+  },
+  
 ];
 
 export const Projects = () => {
