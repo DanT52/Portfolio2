@@ -28,7 +28,7 @@ export const Hero = () => {
           transition={{ duration: 0.8 }}
         >
           <h1 className="text-5xl font-bold mb-4 text-background-950 dark:text-background-50 dark:drop-shadow-lg">Daniel Basarab</h1>
-            <h2 className="text-3xl mb-8 text-background-950 dark:text-background-50 dark:drop-shadow-lg">Program Maker</h2>
+            <h2 className="text-3xl mb-8 text-background-950 dark:text-background-50 dark:drop-shadow-lg">Software Engineer</h2>
           <div className="flex flex-col items-center space-y-4">
             <div className="flex justify-center space-x-4">
               <motion.button
